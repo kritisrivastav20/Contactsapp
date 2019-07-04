@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="16dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/mName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:maxLines="1"
+        android:hint="NAME"
+        android:paddingLeft="8dp"
+        android:textColor="#394450" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Home"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="NUMBER"
+        android:maxLines="1"
+        android:inputType="number"
+        android:layout_gravity="start"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Image"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/person_image"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_person_round" />
+
+    <ImageView
+        android:id="@+id/delete_image"
+        android:src="@drawable/ic_delete_image"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/upload_image"
+        android:src="@drawable/ic_addimage"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+         />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="abc@example.com"
+        android:paddingLeft="8dp"
+        android:textColor="#394450" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="Office"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/work"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="NUMBER"
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:textColor="#394450" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="30dp">
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F5F5F5"
+        android:text="SAVE"
+        android:textColor="#FF8A36"
+        android:textSize="20sp" />
+</LinearLayout>
+
+</LinearLayout>
